@@ -21,7 +21,7 @@ Este é um sistema web completo para **cadastro de usuários**, com uma arquitet
 * **Banco de dados PostgreSQL**
 * **PgAdmin para gerenciamento do banco de dados**
 
-O sistema permite cadastrar usuários com **nome e e-mail**, visualizar a lista de usuários e gerenciar o banco de dados de forma prática.
+O sistema permite cadastrar usuários com **nome e e-mail**.
 
 ---
 
@@ -163,20 +163,6 @@ docker-compose logs -f
 * Os dados do banco são **persistidos via volumes Docker**
 * A tabela de usuários será criada **na primeira execução**
 
----
-
-Se quiser, posso também gerar esse README em formato Markdown (`README.md`) com sugestões de estrutura adicional, badges e até capturas de tela do sistema. Deseja isso?
-
-│   ├── public/
-│   ├── Dockerfile
-│   └── package.json
-├── backend/
-│   ├── index.js
-│   ├── Dockerfile
-│   └── package.json
-└── docker-compose.yml
-```
-
 ## 🔧 Configuração e Instalação
 
 ### Pré-requisitos
@@ -200,7 +186,6 @@ docker-compose up --build
 
 ## 💻 Funcionalidades
 - Cadastro de usuários com nome e email
-- Listagem de usuários cadastrados
 - Interface responsiva e moderna
 - Persistência de dados em PostgreSQL
 - Gerenciamento do banco via PgAdmin
